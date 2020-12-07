@@ -528,9 +528,12 @@ margin-top:50px;
 	margin-top:50px;
 	width:700px;
 	margin:50px auto;
-	
+
+	text-align:center;
 	align-items:center;
 }
+
+
 .contact-container .row{
 	display:flex;
 	justify-content:center;
@@ -609,7 +612,3 @@ margin-top:50px;
  .pink{background:#d9a6ec;}
  .orange{background:#ecc0a6;}
 
- /* Короче всякие штуки для страницы shop*/
- .ftu{
- 	margin right: 50px; 
- }
