@@ -18,17 +18,13 @@ $('.slider-arrow').on('click',function(e){
 		}
 		isBusy=true;
 		$('.slider-image').animate({'opasity':0},350,()=>{
-			$('slider-image').css('background-image','url('+slides[currentSlide]+')');
-			$('slider-image').animate({'opasity':1},350,()=>isBusy=false);
+			$('.slider-image').css('background-image','url('+slides[currentSlide]+')');
+			$('.slider-image').animate({'opasity':1},350,()=>isBusy=false);
 		});
 	}
 });
 });
 const slides=[
-'img/img5.jpg',
-'img/img6.jpg',
-'img/img7.jpg',
-'img/img8.jpg',
-'img/img9.jpg',
-'img/img10.jpg',
+'img/img09.jpg',
+'img/img10.jpg'
 ]
